@@ -4,8 +4,8 @@ At a high level, Version Control (often abreviated as VCS, or "Version Control S
 
 ## Git
 Git is one of many VCS, and is NOT to be confused with GitHub. The difference is simple: 
-..* Git is the actual version control software
-..* GitHub is a website/hosting service for Git repositories
+* Git is the actual version control software
+* GitHub is a website/hosting service for Git repositories
 
 So if my team and I are writing code together, we would all "commit" our changes locally and "push" those changes to GitHub. With the project being hosted on GitHub, developers are free to download, or "clone", their projects on whatever computer they want. You can think of GitHub like Google Drive for saving different iterations code. 
 
