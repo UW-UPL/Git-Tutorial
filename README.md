@@ -7,3 +7,8 @@ Created by the UPL
     2. [Git](https://github.com/UW-UPL/Git-Tutorial/blob/master/highlevel-git/README.md#git)
     3. [Git Core Concepts](https://github.com/UW-UPL/Git-Tutorial/blob/master/highlevel-git/README.md#core-git-concepts)
     4. [Repository](https://github.com/UW-UPL/Git-Tutorial/blob/master/highlevel-git/README.md#repository)
+
+## Contributors
+[Evan Kivolowitz](https://github.com/ekivolowitz)
+[Aaron Levin](https://github.com/awlevin)
+[Christian Borst](https://github.com/ChristianBorst)
