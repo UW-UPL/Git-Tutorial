@@ -1,6 +1,6 @@
 # Version Control and Git
 ## What is Version Control?
-At a high level, Version Control (often abreviated as VCS, or "Version Control System") is just a backup system for programming. Imagine writing a bunch of code to make a mobile app. You reach a point where everything works stably, so you want to save your progress. Then you add a new feature that introduces some bugs. You can't present your application to your friends now that it has bugs, so you want to revert back to the stable version of your application. But, your new feature is almost bug-free, so you don't want to lose those changes either. Here's where Version Control comes to the rescue. 
+At a high level, Version Control (often abreviated as VCS, or "Version Control System") is just a backup system for programming. Imagine writing some code to make a mobile app. You reach a point where everything works stably, so you want to save your progress. Then you add a new feature that introduces some bugs. You can't present your application to your friends now that it has bugs, so you want to revert back to the stable version of your application. But, your new feature is almost bug-free, so you don't want to lose those changes either. Here's where Version Control comes to the rescue. 
 
 ## Git
 Git is one of many VCS, and is NOT to be confused with GitHub. The difference is simple: 
