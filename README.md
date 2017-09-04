@@ -9,6 +9,6 @@ Created by the UPL
     4. [Repository](https://github.com/UW-UPL/Git-Tutorial/blob/master/highlevel-git/README.md#repository)
 
 ## Contributors
-[Evan Kivolowitz](https://github.com/ekivolowitz)
-[Aaron Levin](https://github.com/awlevin)
-[Christian Borst](https://github.com/ChristianBorst)
+[Evan Kivolowitz](https://github.com/ekivolowitz)  
+[Aaron Levin](https://github.com/awlevin)  
+[Christian Borst](https://github.com/ChristianBorst)  
