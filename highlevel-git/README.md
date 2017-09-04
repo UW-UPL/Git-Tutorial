@@ -32,6 +32,6 @@ git init
 ls -a
 ```
 
-The `.git/` folder is what makes a directory a git repository. It contains many helpful things that we will talk about later: branches, objects, refs, HEAD, index, and config.
+The `.git/` folder is what makes a directory a git repository. It contains many helpful things that we will talk about later (including but not limited to): branches, objects, refs, HEAD, index, and config.
 
 
