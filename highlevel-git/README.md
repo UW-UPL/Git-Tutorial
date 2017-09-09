@@ -51,6 +51,6 @@ It's pretty simple. Just type: `git add <path-to-filename>` to add it to the sta
 
 ![git-add-files-staged](git-add-files-staged.png)  
 
-Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`.  
+Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`
 
 Now we're ready to commit our staged changes!  
