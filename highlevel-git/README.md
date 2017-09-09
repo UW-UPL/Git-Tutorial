@@ -54,3 +54,17 @@ It's pretty simple. Just type: `git add <path-to-filename>` to add it to the sta
 Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`.  
 
 Now we're ready to commit our staged changes!  
+
+
+### Commits
+Committing changes is easy! Once you're done staging your files, simply type `git commit -m "commit message"`. The `-m` flag means that we want to include a message in our commit, describing the changes we're committing. Let's go ahead and try that:
+
+![git-commit-with-message](git-commit-with-message.png)
+
+Another nifty command we can use is `git log`. Use this to see the history of commits you've made in your repository:
+
+![git-log](git-log.png)
+
+You'll notice that each commit has a unique identifier, which looks like a completely random sequence of alphanumeric characters. In fact, it's not random at all. Each commit's identifier is a "SHA-1" hash that takes in many factors, such as: the content of the commit, the date of the commit, the committer's name and email address, the log message, the ID of previous commits, etc. For more information, click [here](https://stackoverflow.com/questions/29106996/git-what-is-a-git-commit-id).
+
+Later, we'll see how we can use commit ID's to revert back to a previous state of our project. 
