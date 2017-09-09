@@ -47,7 +47,7 @@ Next, there's a section that says `Changes not staged for commit`, and within th
 
 Lastly, the section `Untracked files: ` simply lists us the files that aren't currently under version control-- usually, these are brand new files, and git has never saved them in a previous commit. Let's go ahead and demonstrate how to add files during staging.
 
-It's pretty simple. Just type: `git add <path-to-filename>` to add it to the stage. In our example, we'd use the commands: `git add README.txt` and `git add file_one.txt`.  
+It's pretty simple. Just type: `git add <path-to-filename>` to add it to the stage. In our example, we'd use the commands: `git add README.txt` and `git add file_one.txt`.  Shown below is the result of calling `git status` after staging those two files.
 
 ![git-add-files-staged](git-add-files-staged.png)  
 
