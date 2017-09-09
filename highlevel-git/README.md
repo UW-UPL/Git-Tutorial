@@ -20,9 +20,9 @@ In order to understand how to use git, you need to know a few definitions.
 * Branch
 
 ### Repository
-A git repository is the collection of a bunch of files tracked by git for a project. Think of this as your working directory for your project.
+A git repository is a collection of files in a project that are tracked by git. Think of this as your "working directory" for your project.
 
-If you were on your desktop and ran the following code, you would create a git repository called MyFirstRepository. Simply having a folder named `MyFirstRepository` does not it a git repository. What makes a folder a git repository is the `git init` command. Before you run the `git init` command, there is nothing but an empty folder when we viewed the directory with `ls -a`. Ater running `git init` and another `ls -a`, we'll see that there is a `.git/` folder. (Side Note: You need the `-a` flag with the `ls` command because that will specify to the `ls` command that it should include  hidden files and folders. Any hidden file or folder will begin with a '.'.)
+If you were on your desktop and ran the following code, you would create a git repository called MyFirstRepository. Simply having a folder named `MyFirstRepository` does not make it a git repository. What makes a folder a git repository is the `git init` command. Before you run the `git init` command, there is nothing but an empty folder when we viewed the directory with `ls -a`. Ater running `git init` and another `ls -a`, we'll see that there is a hidden `.git/` folder. (Side Note: You need the `-a` flag with the `ls` command because that will specify to the `ls` command that it should include  hidden files and folders. Any hidden file or folder will begin with a '.'.)
 ```
 cd ~/Desktop/
 mkdir MyFirstRepository
@@ -32,6 +32,25 @@ git init
 ls -a
 ```
 
-The `.git/` folder is what makes a directory a git repository. It contains many helpful things that we will talk about later (including but not limited to): branches, objects, refs, HEAD, index, and config.
+The `.git/` folder is what makes a directory a git repository, and is generally placed in the root directory of a project. It contains many helpful things that we will talk about later (including but not limited to): branches, objects, refs, HEAD, index, and config.
 
+### Staging
+When you save a snapshot of your project in its current state, that snapshot is called a "commit". But sometimes you have dozens of changes, and you only want to add a few of them to your commit. This is done in a process known as "staging".  
 
+This process starts with a very important command, that is used extremely frequently when working with git. The command is `git status`.  
+
+![git-status-changes-shown](git-status-changes-made.png)  
+
+The first thing we see is "On branch master". We'll get to branches later, so you canignore that for now.  
+
+Next, there's a section that says `Changes not staged for commit`, and within that area it says `modified: README.txt`. This means that git is currently tracking changes we make to README.txt, it notices that we've changed the file since our last commit, and we haven't added those changes to be captured in our next commit. 
+
+Lastly, the section `Untracked files: ` simply lists us the files that aren't currently under version control-- usually, these are brand new files, and git has never saved them in a previous commit. Let's go ahead and demonstrate how to add files during staging.
+
+It's pretty simple. Just type: `git add <path-to-filename>` to add it to the stage. In our example, we'd use the commands: `git add README.txt` and `git add file_one.txt`.  
+
+![git-add-files-staged](git-add-files-staged.png)  
+
+Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`.  
+
+Now we're ready to commit our staged changes!  
