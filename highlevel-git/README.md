@@ -43,15 +43,15 @@ This process starts with a very important command, that is used extremely freque
 
 The first thing we see is "On branch master". We'll get to branches later, so you canignore that for now.  
 
-Next, there's a section that says `Changes not staged for commit`, and within that area it says `modified: README.txt`. This means that git is currently tracking changes we make to README.txt, it notices that we've changed the file since our last commit, and we haven't added those changes to be captured in our next commit. 
+Next, there's a section that says `Changes not staged for commit`, and within that area it says `modified: README.txt`. This means that git is tracking changes we make to README.txt, it notices that we've changed the file since our last commit, and we haven't staged those changes to be captured in our next commit. 
 
 Lastly, the section `Untracked files: ` simply lists us the files that aren't currently under version control-- usually, these are brand new files, and git has never saved them in a previous commit. Let's go ahead and demonstrate how to add files during staging.
 
-It's pretty simple. Just type: `git add <path-to-filename>` to add it to the stage. In our example, we'd use the commands: `git add README.txt` and `git add file_one.txt`.  
+It's pretty simple. Just type: `git add <path-to-filename>` to add it to the stage. In our example, we'd use the commands: `git add README.txt` and `git add file_one.txt`.  Shown below is the result of calling `git status` after staging those two files.
 
 ![git-add-files-staged](git-add-files-staged.png)  
 
-Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`.  
+Tip: if you want to add everything since your last commit to the stage, simply type: `git add .`
 
 Now we're ready to commit our staged changes!  
 
