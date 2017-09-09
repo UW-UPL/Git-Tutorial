@@ -43,7 +43,7 @@ This process starts with a very important command, that is used extremely freque
 
 The first thing we see is "On branch master". We'll get to branches later, so you canignore that for now.  
 
-Next, there's a section that says `Changes not staged for commit`, and within that area it says `modified: README.txt`. This means that git is currently tracking changes we make to README.txt, it notices that we've changed the file since our last commit, and we haven't added those changes to be captured in our next commit. 
+Next, there's a section that says `Changes not staged for commit`, and within that area it says `modified: README.txt`. This means that git is tracking changes we make to README.txt, it notices that we've changed the file since our last commit, and we haven't staged those changes to be captured in our next commit. 
 
 Lastly, the section `Untracked files: ` simply lists us the files that aren't currently under version control-- usually, these are brand new files, and git has never saved them in a previous commit. Let's go ahead and demonstrate how to add files during staging.
 
