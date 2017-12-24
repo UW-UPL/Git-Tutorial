@@ -15,8 +15,6 @@ In order to understand how to use git, you need to know a few definitions.
 * Repository
 * Staging
 * Commit
-* Index
-* Head
 * Branch
 
 ### Repository
