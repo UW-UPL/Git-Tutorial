@@ -20,4 +20,3 @@ In progress
 ## Contributors
 [Evan Kivolowitz](https://github.com/ekivolowitz)  
 [Aaron Levin](https://github.com/awlevin)  
-[Christian Borst](https://github.com/ChristianBorst)  
